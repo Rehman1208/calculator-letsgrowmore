@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #3293d43f;
+  }
+  
+  .container {
+    width: 40%;
+    height: 60vh;
+    background-color: #259e82b4;
+    padding: 15px;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.322);
+    margin: 10vh auto;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 5x 10px 20px blueviolet;
+    font-family: serif;
+  }
+  
+  h1 {
+    font-family: book antiqua;
+    font-weight: 800;
+    font-size: 5rem;
+    color: rgb(6, 4, 8);
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .screen {
+    height: 10vh;
+    background-color: #2a3c45;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  .number:hover,
+  .equal:hover,
+  .operator:hover,
+  .clear:hover {
+    transition: 0.2s ease-in;
+    background-color: #7fd8be;
+    color: white;
+    transform: scale(1.04);
+  }
+  
+  .operator:hover {
+    background-color: #7fd8be;
+  }
+  
+  input[type="text"] {
+    width: 96%;
+  }
+  
+  input[type="button"]:active {
+    background-color: #e9806e;
+  }
+  
+  .operator,
+  .clear,
+  .equal {
+    background-color: #7ef7a2;
+    padding: 5px;
+    color: blue;
+    border: 2px solid black;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  .number {
+    background-color: #f9e9ec;
+    border-radius: 5px;
+    padding: 5px;
+    height: 10vh;
+    color: orangered;
+    border: 2px solid black;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  .clear {
+    background-color: #8bcff657;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 13vh;
+    margin-left: 2px;
+  }
+  
+  .clear:hover {
+    background-color: #ab2399a9;
+  }
+  
+  .equal {
+    background-color: #cf0b9eea;
+  }
+  
+  .equal:hover {
+    background-color: #0131efda;
+  }
+  table {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    height: 5vh;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #00638d;
+  }
+  
+  footer a:hover {
+    transform: scale(1.03);
+    color: #1d382a07;
+  
+    transition: 0.2s ease-in-out;
+    font-weight: 700;
+  }
+  
+  img {
+    margin: 0 2vw;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  footer a img:hover {
+    transform: scale(1.02);
+  }
